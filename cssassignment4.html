@@ -94,8 +94,9 @@
                 type="password"
                 id="password"
                 name="password"
-                placeholder="Enter password"
-              />
+                placeholder="Enter password">
+                <img src="/asset/eye-close.png" id="eyeicon" alt="Toggle visibility">
+                
             </div>
             <button type="submit" class="register-button">Register</button>
             <p class="terms">
@@ -106,6 +107,22 @@
           </form>
         </div>
       </section>
+      <script>
+
+let eyeicon = document.getElementById("eyeicon");
+let password = document.getElementById("password");
+
+eyeicon.onclick = function(){
+if(password.type === "password"){
+  password.type = "text";
+  eyeicon.src = "/asset/eye-open.png";
+}else{
+  password.type = "password";
+    eyeicon.src = "/asset/eye-close.png";
+   
+}
+}
+      </script>
     </body>
   </html>
 </html>
