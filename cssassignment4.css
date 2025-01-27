@@ -99,8 +99,6 @@ form {
   display: flex;
   flex-direction: column;
   margin-bottom: 15px;
-
-
 }
 
 label {
@@ -169,4 +167,123 @@ button.register-button:hover {
 .terms a {
   color: #00C2A8;
   text-decoration: none;
+}
+
+
+
+/* mobile view begins */
+
+
+
+@media (max-width: 767px) {
+
+  body {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+
+  }
+
+  .logo {
+    /* width: 38.67px;
+    left: 24px; */
+    width: 38.67px;
+    height: 40px;
+    top: 74px;
+    left: 24px;
+  }
+
+  .side {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  img {
+
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+
+  }
+
+  h2 {
+    width: 327px;
+    height: 30px;
+    left: 24px;
+    font-size: 24px;
+    font-family: Brown;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 29.4px;
+    letter-spacing: -0.800000011920929px;
+    text-align: left;
+    margin-top: 50px;
+
+  }
+
+  p {
+    width: 327px;
+    height: 50px;
+    top: 196px;
+    left: 24px;
+    font-family: Brown;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+
+  .form-container {
+    width: 327px;
+    height: 870px;
+    top: 286px;
+    left: 24px;
+    border-radius: 6px 0px 0px 0px;
+    position: static;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: none;
+    margin-top: 50px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .form-group img {
+    left: 42%;
+
+    top: -30px;
+  }
+
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+  }
+
+  button.register-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .terms {
+    width: 316px;
+    height: 50px;
+    top: 1180px;
+    left: 30px;
+
+    /* font-size: 12px;
+    text-align: center; */
+  }
 }
