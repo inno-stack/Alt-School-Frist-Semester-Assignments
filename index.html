@@ -1,58 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Basic information for the School of Engineering program application."
-    />
-    <title>My Profile</title>
-  </head>
-  <body id="top">
-    <!-- Main Header -->
-    <header>
-      <h1>Welcome to My Software Engineering Journey</h1>
-      <p>Your gateway to my aspirations and motivations.</p>
-      <nav>
-        <a href="#bio">Biography</a> | <a href="#details">Why I Joined</a> |
-        <a href="#goals">My Goals</a> |
-        <a href="#down">Scroll down</a>| <br />
-        <a href="table.html">Html Assignment 2 (Table)</a> |
-        <a href="media.html">Html Assignment 3 (Media) </a> |
-        <a href="/form.html">Html Assignment 4 (Sign-Up) </a> |<br />
-        <a href="/cssassignment1.html">CSS Assignment 1 </a> |
-        <a href="/cssassignment2.html">CSS Assignment 2 </a> | 
-        <a href="/cssassignment3.html">CSS Assignment 3 </a> |
-        <a href="/cssassignment4.html">CSS Assignment 4 </a> |
-         <a href="/cssassignment5.html">CSS Assignment 5 </a> |
-      </nav>
-    </header>
-    <!-- Basic Information Section -->
-    <section>
-      <h2>Basic Information</h2>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portifolio</title>
+  <link rel="stylesheet" href="/accsignment1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div id="top"></div>
+  <!-- header starts -->
+  <header>
+    <div class="logo">
+      INNOMEX.
+    </div>
+    <div class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact </a></li>
+        <li><a href="#bio">Biography</a></li>
+        <li><a href="#details">Why I Joined</a></li>
+        <li><a href="#goals">My Goals</a></li>
+        <li><a href="#down">Go down</a></li>
+      </ul>
+    </div>
+    <div class="button">
+      <button class="btn">Hire Me</button>
+    </div>
+  </header>
+  <div class="welcome"><h1>Welcome to My Software Engineering Journey</h1>
+  <p>Your gateway to my aspirations and motivations.</p>
+  </div>
+  <!-- MAIN SECTION -->
+   <div class="hero">
+    <div class="hero-content">
+      <h4>Hello,</h4>
+      <h1>I'm Izuchukwu Innocent</h1>
+      <h2>Frontend Engineer</h2>
+       <h3>Basic Information</h3>
+       <p><strong>Name:</strong> Izuchukwu Ebuka Innocent</p>
       <p><strong>My Alt School ID:</strong> ALT/SOE/024/2722</p>
-      <p><strong>Name:</strong> Izuchukwu Ebuka Innocent</p>
-    </section>
     <hr />
-    <!-- Biography Section -->
-    <main id="main">
-      <section id="bio">
-        <h2>Biography</h2>
-        <p>
-          Hello! My name is Izucukwu Ebuka Innocent, from Africa Nigeria,
-          Anambra State, Idemili North LGA. I started teaching as <br />
-          secondary school teacher after my Youth service, I sincerly started
-          developing love for software engernering.I passionatly determined to
-          <br />
-          have a better future in Software Engineering at ALTSchool Africa,
-          <br />
-          My School ID is <strong>ALT/SOE/024/2722</strong>.
-        </p>
-      </section>
-      <!-- Why I Joined Section -->
+  <div class="assignment">
+   <h5>Below are the link to my assignments</h5>
+  </div>
+  <div class="ass-link"></div>
+  <a href="/assignment1.html" target="_blank">
+    <button id="btn">Html Asgmt 1</button>
+  </a>
+  <a href="/form.html" target="_blank">
+    <button id="btn">Html Asgmt 1b</button>
+  </a>
+  <a href="/media.html" target="_blank">
+    <button id="btn">Html Asgmt 2</button>
+  </a>
+  <a href="/cssassignment1.html" target="_blank">
+    <button id="btn">Css Asgmt 1</button>
+  </a>
+  <a href="/cssassignment2.html" target="_blank">
+    <button id="btn">Css Asgmt 2</button>
+  </a>
+  <a href="/cssassignment3.html" target="_blank">
+    <button id="btn">Css Asgmt 3</button>
+  </a>
+  <a href="/cssassignment4.html" target="_blank">
+    <button id="btn">Css Asgmt 4</button>
+  </a>
+  <a href="/cssassignment5.html" target="_blank">
+    <button id="btn">Css Asgmt 5</button>
+  </a>
+  <a href="/cssassignment6.html" target="_blank">
+    <button id="btn">Css Asgmt 6</button>
+  </a>
+  <br>
+  <section id="bio">
+    <button id="btn"><h3>Biography</h3></button>
+    <p>My name is Izucukwu Ebuka Innocent, from Africa Nigeria, Anambra State, Idemili North LGA. I started as
+secondary school teacher after my Youth service, I sincerly started developing intrest and passion for software engernering.I passionatly determined to
+have a better future in Software Engineering at ALTSchool Africa,
+My School ID <strong>ALT/SOE/024/2722.</strong> </p>
+<br>
+<!-- Why I Joined Section -->
       <section id="details">
-        <h2>Why I Joined the Program</h2>
+       <button id="btn"><h3>I Joined</h3></button> 
         <p>
           Joining the School of Engineering program represents an exciting
           opportunity to contribute to <br />innovative solutions and acquire
@@ -61,11 +92,12 @@
           application,<br />
           developing skills that can make a meaningful impact.
         </p>
-      </section>
+      </section><br>
       <!-- Goals Section -->
       <section id="goals">
-        <h2>My Goals</h2>
-        <ul>
+
+        <button id="btn"><h3>My Goals</h3></button>
+        <ol>
           <li>
             Master the fundamentals of software Engineering and problem-solving.
           </li>
@@ -78,16 +110,32 @@
           <li>
             Without dought earn a living with this soft-demanding tech skill.
           </li>
-        </ul>
-      </section>
-    </main>
-    <!-- Back to Top Section / footer -->
-    <footer id="down">
-      <p>Thank you for visiting! Reach for the stars, one step at a time.</p>
-      <nav>
-        <a href="#top">Back to Top</a>
-      </nav>
-      <p>&copy; 2024 Innomex. All rights reserved.</p>
+        </ol>
+      </section><br>
+      <a href="#top" class="back-top">
+        <button id="btn">Back to Top</button>
+       </a>
+ <!-- Back to Top Section / footer -->
+ 
+  <footer id="down">
+    <p>Thank you for visiting! Reach for the stars, one step at a time.</p>
+
+      
+      <p>&copy; 2025 Innomex. All rights reserved.</p>
     </footer>
-  </body>
+</section>
+    </div>
+    <div class="image">
+      <img src="/asset/me.png" alt="my photo" width="370">
+    </div>
+    
+  
+    <div class="socila-media">
+      <li><i class="fa-brands fa-facebook-f"></i></li>
+      <li><i class="fa-brands fa-instagram"></i></li>
+      <li><i class="fa-brands fa-github"></i></li>
+      <li><i class="fa-brands fa-linkedin"></i></li>
+    </div>
+   </div>
+</body>
 </html>
