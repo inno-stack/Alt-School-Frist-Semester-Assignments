@@ -8,32 +8,96 @@
   <link href="form.css" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <h1>Create an Account</h1>
-    <p>Sign up to access the platform and start learning today.</p>
+  <!-- main container -->
+  <section class="container">
+    
+    <!-- left container starts -->
+    <div class="left-container">
+      <div class="left-con-content">
+<div><img src="/asset/altschool.png" alt=""></div>
+<div class="learn">
+  Learn highly sought after<br/> skill without <br>hassle.
+</div>
+<div class="scoila">
+  social
+</div>
+<footer class="alt-footer">
+  2025 & AltSchool Africa.All right reserved.
+</footer>
+</div>
+    </div>
+    <!-- left container end -->
+ 
+    <!--right container starts -->
+     <div class="right-container">
+     <header> 
+    Already an AltScholar?<a href="#"> Sign In!</a> 
+</header>
+<div class="sigup"><h1>Signup</h1></div>
+<div class="take-step">take the next steps to apply at AltSchool Africa</div>
+       <div class="form-container">
+   
+        <form>
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="First Name">
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Last Name">
+                </div>
 
-    <form>
-      <div class="form-group">
-        <label for="name">Full Name</label>
-        <input type="text" id="name" name="name" placeholder="Enter your full name" required />
-      </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <select id="gender" name="gender">
+                        <option value="">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
 
-      <div class="form-group">
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email address" required />
-      </div>
+                <div class="form-group">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" name="dob">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+                </div>
 
-      <div class="form-group">
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" placeholder="Create a password" required />
-      </div>
+                <div class="form-group">
+                    <label for="country">Country of Residence</label>
+                    <input type="text" id="country" name="country" placeholder="Country of Residence">
+                </div>
+                <div class="form-group">
+                    <label for="state">State of Residence</label>
+                    <input type="text" id="state" name="state" placeholder="State of Residence">
+                </div>
 
-      <button type="submit" class="btn">Sign Up</button>
-    </form>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" 
+                    placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password">
+                </div>
 
-    <p class="additional-text">
-      Already have an account? <a href="#">Log in</a>
-    </p>
-  </div>
+                <div class="form-group full-width">
+                    <label for="how-did-you-know">How did you know about us?</label>
+                    <input type="text" id="how-did-you-know" name="how-did-you-know" rows="3" placeholder="Optional: Let us know you found us">
+                </div>
+            </div>
+            <div class="terms">By clicking continue, I agree to  <a href="#" >Terms of Use </a>and acknowledge that I have read the<a href=""> Privacy Policy.</a> </div>
+            <button type="submit">Signup</button>
+        </form>
+    </div>
 </body>
 </html>
