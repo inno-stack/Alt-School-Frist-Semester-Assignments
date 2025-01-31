@@ -13,7 +13,8 @@
    background-color: #ffffff;
    padding: 1rem;
  }
-/* main container fo the work */
+
+ /* main container fo the work */
  .container {
    display: flex;
    background: #ffffff;
@@ -25,7 +26,7 @@
    border-radius: 0px;
    justify-content: center;
    align-items: center;
-    min-height: 100vh;
+   min-height: 100vh;
 
  }
 
@@ -34,7 +35,8 @@
    height: 300px;
    margin-left: 50px;
  }
-/* left container starts */
+
+ /* left container starts */
 
  .left-container {
    display: flex;
@@ -69,7 +71,7 @@
  }
 
  .alt-footer {
-  font-weight: bold;
+   font-weight: bold;
    text-align: center;
    padding: auto;
    margin: 20px auto;
@@ -87,11 +89,13 @@
    margin-top: 5px;
  }
 
-/* Already an AltScholar */
+ /* Already an AltScholar */
  header {
    display: flex;
    bottom: 370px;
    text-align: center;
+   font-weight: bold;
+   font-size: 14px;
    width: auto;
    padding: 2px;
    margin: 5px;
@@ -99,7 +103,7 @@
  }
 
 
-/* form container starts */
+ /* form container starts */
 
  .form-container {
    display: flex;
@@ -159,6 +163,20 @@
    font-size: 14px;
  }
 
+ :focus {
+   border-color: blue;
+   /* Change this to any color you want */
+ }
+
+ /* pawword toggle */
+ .form-group img {
+   position: relative;
+   width: 16px;
+   height: 16px;
+   top: -35px;
+   left: 80%;
+   cursor: pointer;
+ }
 
  button {
    width: 102%;
