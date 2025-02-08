@@ -77,52 +77,119 @@
    margin: 20px auto;
  }
 
-
+ .space {
+   width: 150px;
+ }
 
  .right-container {
-   width: 800px;
-   height: 100vh;
+   display: flex;
+   position: relative;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   top: 1px;
+   max-height: 100%;
+   padding: 5px;
+   /* margin-top: 100px; */
    /* border: 5px solid #a33232; */
-   margin: 5px;
-   left: 2%;
-   margin-left: 100px;
-   margin-top: 5px;
+   /* margin-left: 200px; */
+   /* margin-bottom: 100px; */
+   /* bottom: 40px; */
+   /* width: 800px; */
+   /* height: 100vh; */
+   border: 5px solid #a33232;
+   /* margin: 5px; */
+   left: 100px;
+   /* margin-left: 100px; */
+   /* margin-top: 5px; */
+   max-width: 800px;
  }
 
  /* Already an AltScholar */
- header {
+ .right-header {
    display: flex;
-   bottom: 370px;
-   text-align: center;
-   font-weight: bold;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   /* margin-top: 10px; */
+   /* bottom: 370px; */
+   /* text-align: center; */
+   /* font-weight: bold; */
+   /* font-size: 14px; */
+   max-width: 700px;
+   /* padding: 2px; */
+   /* margin: 5px; */
+   /* margin-left: 70%; */
+   /* margin-top: 100px; */
    font-size: 14px;
-   width: auto;
-   padding: 2px;
-   margin: 5px;
-   margin-left: 70%;
+   font-weight: bold;
+   margin-top: 5px;
+   top: -50px;
+   left: 300px;
  }
 
 
  /* form container starts */
+ form {
+   display: flex;
+   position: relative;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 5px;
+   max-width: 700px;
+   /* height: 100vh; */
+   border: 5px solid #a33232;
+   margin: 5px;
+   right: 2%;
+   bottom: 8%;
+ }
 
  .form-container {
+   max-width: 100%;
+   max-height: 100vh;
+   padding-bottom: 5px;
+   margin: 0px;
+   border-radius: 0px;
+   justify-content: center;
+   align-items: flex-end;
+   /* min-height: 100vh; */
+   margin-top: 5px;
+   /* margin-left: 100px; */
+   /* margin-bottom: 100px; */
+   /* top: 100px; */
+   bottom: 20px;
    display: flex;
-   margin-top: 4%;
+   position: relative;
    margin-left: 5%;
    background: rgb(253, 254, 255);
-   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+
  }
 
  .sigup {
-
-   margin-left: 5%;
-   font-size: 140%;
-   margin-bottom: 10px;
+   display: flex;
+   position: relative;
+   flex-direction: column;
+   justify-content: flex-start;
+   font-size: 20px;
+   font-weight: bold;
+   margin-top: 5px;
+   margin-right: 77%;
+   top: -50px;
+   /* margin-bottom: 50px; */
+   /* margin-left: 10% */
  }
 
  .take-step {
+   display: flex;
+   position: relative;
+   top: -45px;
    color: gray;
-   margin-left: 5%
+   font-size: 14px;
+   margin-top: 5px;
+   margin-right: 47%;
+   /* margin-left: 10% */
  }
 
  a {
@@ -131,6 +198,7 @@
  }
 
  .form-grid {
+   margin-right: auto;
    display: grid;
    grid-template-columns: 1fr 1fr;
    gap: 15px;
@@ -147,8 +215,10 @@
  }
 
  label {
-   font-weight: normal;
+   font-weight: 100;
    margin-bottom: 1px;
+   font-size: 14px;
+   margin-top: 1px;
  }
 
  input,
@@ -163,6 +233,7 @@
    font-size: 14px;
  }
 
+
  :focus {
    border-color: blue;
    /* Change this to any color you want */
@@ -176,6 +247,7 @@
    top: -35px;
    left: 80%;
    cursor: pointer;
+
  }
 
  button {
@@ -188,16 +260,32 @@
    border-radius: 5px;
    cursor: pointer;
    font-size: 16px;
+
  }
 
  button:hover {
    background: #0367f2;
  }
 
- /* 
+ .alt-footer {
+   font-weight: bold;
+   text-align: center;
+   padding: auto;
+   margin: 20px auto;
+ }
+
+
+ /* Media Mobile View */
  @media screen and (min-width: 62em) {
    .left-container {
      display: flex;
+     position: relative;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 5px;
+     margin-top: 100px;
+
    }
 
- } */
+ }
