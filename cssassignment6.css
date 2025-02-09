@@ -12,6 +12,7 @@ body {
   font-family: Gilroy-Medium;
   background-color: white;
   padding: 10px;
+  max-height: 100%;
 }
 
 /* general container starts */
@@ -22,9 +23,11 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 10px;
+  max-width: auto;
   max-height: 100%;
+  /* overflow: hidden; */
 }
 
 /* header starts */
@@ -389,7 +392,7 @@ span a {
   top: 34px;
   left: 12px;
   gap: 96px;
-  border: #000 solid 1px;
+  /* border: #000 solid 1px; */
 }
 
 .line-70 {
@@ -398,8 +401,9 @@ span a {
   gap: 0px;
   border: 5px 0px 0px 0px;
   opacity: 0px;
-  border: 5px solid;
-  border-image-source: linear-gradient(180deg, #112232 0%, rgba(77, 107, 136, 0) 100%);
+  /* border: 5px solid;
+  border-image-source: border:5px solid;
+  border-image-source:linear-gradient(180deg,#112232 0%, rgba(77, 107, 136, 0) 100%); */
   /* border: #000 solid 1px; */
 }
 
@@ -410,14 +414,14 @@ span a {
   height: 256px;
   left: -90px;
   gap: 16px;
-  border: #000 solid 1px;
+  /* border: #000 solid 1px; */
 }
 
 .choose {
   width: 398.1px;
   height: 48px;
   gap: 16px;
-  border: #000 solid 1px;
+  /* border: #000 solid 1px; */
 }
 
 .choose h2 {
@@ -427,7 +431,7 @@ span a {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  border: #000 solid 1px;
+  /* border: #000 solid 1px; */
 }
 
 .choose span {
@@ -441,7 +445,7 @@ span a {
   padding: 10px;
   margin-left: 10px;
   padding-left: 20px;
-  border: #000 solid 1px;
+  /* border: #000 solid 1px; */
 }
 
 .scissors .text p {
@@ -464,7 +468,7 @@ span a {
   height: 504px;
   right: 60px;
   gap: 64px;
-  border: #000 solid 1px;
+  /* border: #000 solid 1px; */
 }
 
 .up-box {
@@ -473,7 +477,7 @@ span a {
   width: 708px;
   height: 220px;
   gap: 28px;
-  border: #000 solid 1px;
+  /* border: #000 solid 1px; */
 }
 
 .left-up {
@@ -481,21 +485,188 @@ span a {
   width: 340px;
   height: 220px;
   gap: 40px;
-  border: #000 solid 1px;
+  /* border: #000 solid 1px; */
+}
+
+.left-up img {
+  width: 56px;
+  height: 56px;
+}
+
+.text-cont {
+  display: flex;
+  flex-flow: column;
+  width: 340px;
+  height: 124px;
+  margin-top: 40px;
+  gap: 16px;
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
 }
 
 .right-up {
   width: 340px;
   height: 211px;
   gap: 40px;
-  border: #000 solid 1px;
+  /* border: #000 solid 1px; */
+}
+
+.right-up img {
+  width: 56px;
+  height: 56px;
+  gap: 40px;
+}
+
+.text-right-cont {
+  display: flex;
+  flex-flow: column;
+  width: 340px;
+  height: 124px;
+  margin-top: 40px;
+  gap: 16px;
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
 }
 
 .down-box {
-  /* display: flex; */
+  display: flex;
   position: relative;
   width: 708px;
   height: 220px;
   gap: 28px;
+  /* border: #000 solid 1px; */
+}
+
+.left-down {
+  width: 340px;
+  height: 220px;
+  gap: 40px;
+}
+
+.left-down img {
+  width: 56px;
+  height: 56px;
+}
+
+.right-down {
+  width: 340px;
+  height: 220px;
+  gap: 40px;
+}
+
+.right-down img {
+  width: 56px;
+  height: 56px;
+  gap: 40px;
+}
+
+/* price session starts */
+
+.price-need {
+  display: flex;
+  position: relative;
+  flex-flow: column;
+  width: 576px;
+  height: 108px;
+  top: 42px;
+  left: 432px;
+  gap: 16px;
+
+  height: 108px;
+  top: 150px;
+  left: 43px;
+
+
+  /* border: #000 solid 1px; */
+}
+
+.price-need {
+  width: 560px;
+  height: 48px;
+}
+
+.price-h1 {
+  font-family: Gilroy-Bold;
+  font-size: 25px;
+  line-height: 48px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.price-h1 span {
+  font-family: Gilroy-Bold;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #005AE2;
+}
+
+.text-p {
+  width: 600px;
+  margin-left: 40px;
+
+}
+
+/* month-box starts */
+
+.month-box {
+  display: flex;
+  width: 1088;
+  height: 627;
+  top: 218px;
+  left: 176px;
+  border-radius: 12px;
   border: #000 solid 1px;
+}
+
+.month-box-left {
+  width: 379;
+  height: 455;
+  top: 304px;
+  left: 176px;
+  border-radius: 12px;
+  border-width: 0.4px;
+  border: #000 solid 1px;
+}
+
+.month-box-center {
+  width: 410;
+  height: 627;
+  top: 218px;
+  left: 515px;
+  border-radius: 12px;
+  border: #000 solid 1px;
+}
+
+.month-box-right {
+  width: 379;
+  height: 455;
+  top: 304px;
+  left: 885px;
+  border-radius: 12px;
+  border-width: 0.4px;
+  border: #000 solid 1px;
+}
+
+.basic {
+  position: relative;
+  width: 60;
+  height: 32;
+  top: 24px;
+  left: 87px;
+}
+
+.free {
+  width: 194;
+  height: 320;
+  top: 90px;
+  left: 87px;
+  gap: 16px;
 }
