@@ -79,10 +79,6 @@ a {
   color: #0065fe;
 }
 
-/* a:hover {
-  color: #0065fe;
-} */
-
 .login-group {
   position: relative;
   display: flex;
@@ -228,8 +224,6 @@ span a {
   position: relative;
   min-width: 833px;
   height: 310.57px;
-  /* top: 60px;
-  left: 36px; */
 }
 
 .frist-fram {
@@ -731,4 +725,47 @@ footer {
   color: #ffffff;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+}
+
+.footer-bottom-left {
+  display: flex;
+  position: relative;
+  width: 15%;
+  min-height: 150px;
+  top: 700px;
+  right: 450px;
+  gap: 64px;
+  border: #000 solid 1px;
+}
+
+.footer-bottom-center {
+  display: flex;
+  position: relative;
+  width: 50%;
+  min-height: 500px;
+  top: 550px;
+  left: 150px;
+  gap: 64px;
+  border: #000 solid 1px;
+}
+
+.footer-bottom-right {
+  display: flex;
+  position: relative;
+  width: 15%;
+  min-height: 70px;
+  top: 600px;
+  left: 550px;
+  gap: 64px;
+  border: #000 solid 1px;
+}
+
+.emyty {
+  display: flex;
+  position: relative;
+  width: 100%;
+  min-height: 20px;
+  top: 600px;
+  gap: 64px;
+  /* border: #000 solid 1px; */
 }
